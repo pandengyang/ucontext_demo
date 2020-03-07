@@ -9,7 +9,7 @@ MKDIR = mkdir -p
 
 DEPS = .dep
 
-TARGET = demo
+TARGET = ucontext_demo
 
 SRCS = $(wildcard *.c)
 OBJS = $(patsubst %.c, %.o, $(SRCS))
